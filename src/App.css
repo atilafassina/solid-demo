@@ -1,0 +1,34 @@
+.logo {
+  height: 6em;
+  padding: 1.5em 0;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo.solid:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+#root {
+  padding: 2rem 0;
+  text-align: center;
+  width: 100vw;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+li {
+  text-align: left;
+  padding: 0.2em 0;
+}
